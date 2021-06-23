@@ -17,15 +17,6 @@
   color: #2e363e;
 }
 
-.nav__notification {
-  position: absolute;
-  background-color: tomato;
-  border-radius: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .nav__notification-comments {
   width: 25px;
   height: 25px;

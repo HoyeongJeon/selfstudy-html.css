@@ -39,3 +39,13 @@
 .user-component__title--not-bold {
   font-weight: 400;
 }
+
+.user-component__time {
+  display: block;
+  color: rgba(0, 0, 0, 0.4);
+  margin-bottom: 5px;
+}
+
+.user-component__column__chats {
+  position: relative;
+}
