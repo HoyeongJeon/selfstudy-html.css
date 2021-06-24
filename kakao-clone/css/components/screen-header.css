@@ -7,6 +7,9 @@
   margin-bottom: 10px;
 }
 
+.screen-header__icons {
+  position: relative;
+}
 .screen-header__title {
   font-size: 32px;
   font-weight: 600;

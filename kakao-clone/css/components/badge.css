@@ -12,3 +12,13 @@
   height: 25px;
   color: white;
 }
+
+.find_cog_notification {
+  position: absolute;
+  background-color: tomato;
+  border-radius: 50%;
+  width: 7px;
+  height: 7px;
+  right: -7px;
+  bottom: 20px;
+}
