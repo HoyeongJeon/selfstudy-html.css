@@ -1,0 +1,24 @@
+#chat-screen,
+#chat-screen > div,
+#chat-screen > header {
+  background-color: #abc1d1;
+}
+
+#chat-screen > div {
+  z-index: 1;
+}
+
+#chat-screen {
+  height: 1100vh;
+}
+#chat-screen .alt-header {
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  top: 5px;
+}
+
+.chat__timestamp {
+  padding-top: 130px;
+  text-align: center;
+}
