@@ -8,6 +8,7 @@ header {
   position: fixed;
   width: 100%;
   box-sizing: border-box;
+  padding-bottom: 50px;
 }
 
 .header-name {
@@ -19,6 +20,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .header-bigname {
@@ -28,26 +30,40 @@ header {
 .header-components span {
   margin-top: 5px;
   margin-right: 32px;
-  color: #54595f;
-}
-
-.header-components span:first-child {
-  color: red;
-  font-weight: 600;
-}
-
-.header-components span i {
-  color: #303030;
-  margin: 0 2px;
-}
-
-.header-components span:nth-child(4) {
-  color: #474747;
-  font-weight: 600;
+  color: #656565;
+  font-size: 13px;
 }
 
 .header-components img {
   width: 100px;
   height: 25px;
   margin-right: 20px;
+}
+
+.header-components__classroom {
+  display: flex;
+  height: 32px;
+  width: 130px;
+  background-color: #FFDB00;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.badge {
+  position: absolute;
+  display: block;
+  width: 5px;
+  height: 5px;
+  background-color: #FFDB00;
+  border-radius: 50%;
+  left: -7px;
+  top: 0px;
+}
+
+.header-components__name {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
