@@ -1,0 +1,10 @@
+/* screen */
+@import "./login.css";
+/* reset */
+/* @import "./reset.css"; */
+
+body .main-login {
+  background-color: #eff2f5;
+  height: 100%;
+  width: 100%;
+}
