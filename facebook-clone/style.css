@@ -1,10 +1,12 @@
 /* screen */
 @import "./login.css";
 /* reset */
-/* @import "./reset.css"; */
+@import "./reset.css";
 
-body .main-login {
+body {
   background-color: #eff2f5;
   height: 100%;
   width: 100%;
+  display: flex;
+  justify-content: center;
 }

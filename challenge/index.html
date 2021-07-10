@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>Create An Account</h1>
+    <form>
+      <div>
+        <lable for="Firstname">First name</lable>
+        <input required id="Firstname" type="text" />
+      </div>
+
+      <div>
+        <lable for="Lastname">Last name</lable>
+        <input required id="Lastname" type="text" />
+      </div>
+
+      <div>
+        <lable for="E-mail">E-mail</lable>
+        <input required id="E-mail" type="email" />
+      </div>
+
+      <div>
+        <lable for="Username">Username</lable>
+        <input required id="Username" required type="text" />
+      </div>
+
+      <div>
+        <lable for="Password">Password</lable>
+        <input required id="Password" minlength="10" type="password" />
+      </div>
+
+      <div>
+        <lable for="Birth-date">Birth date</lable>
+        <input required id="Birth-date" required type="date" />
+      </div>
+
+      <div>
+        <lable for="happy">How Happy are you?</lable>
+        <input required id="happy" type="range" />
+      </div>
+
+      <div>
+        <lable for="color">What is your fav. color?</lable>
+        <input required id="color" type="color" />
+      </div>
+
+      <input type="submit" value="Create Account" />
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>

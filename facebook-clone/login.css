@@ -1,51 +1,6 @@
-.main-login {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.main-login__column {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-
-.main-login__column-log {
-  position: fixed;
-  top: 80px;
-  box-sizing: border-box;
-}
-
-.main-login__column-login {
-  position: fixed;
-  top: 80px;
-  background-color: white;
-  width: 300px;
-  height: 300px;
-  border-radius: 10px;
-}
-
-.main-login__column-login form {
-  box-sizing: border-box;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.main-login__column-login input {
-  width: 90%;
-  height: 50px;
-  margin-top: 15px;
-}
-
-.main-login__column-login button,
-.main-login__column-login a {
-  display: flex;
-}
-
-.main-login__column-login button {
-  width: 90%;
-  background-color: white;
+.main-img {
+  height: 40px;
+  width: 200px;
+  margin-top: 60;
+  padding-bottom: 25px;
 }
